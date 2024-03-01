@@ -9,10 +9,9 @@ import lombok.Setter;
 
 @Entity
 @Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "employee")
+@Table
 
 public class Employee {
     @Id
